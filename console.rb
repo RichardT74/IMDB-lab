@@ -15,7 +15,8 @@ movie1.save
 star1 = Star.new({ 'first_name' => 'Florence', 'last_name' => 'Pugh'})
 star1.save
 
-
+movie1.genre = 'thriller'
+movie1.update
 
 binding.pry
 nil
